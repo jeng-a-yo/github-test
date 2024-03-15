@@ -17,8 +17,7 @@ for a in options:
     x.pop(-1)
     y.pop(-1)
 
-all_answer = list(map(lambda x: round(x, 2), all_answer))
+# all_answer = list(map(lambda x: round(x, 2), all_answer))
 
 print(all_answer)
-print("({})".format(all_answer.index(max(all_answer)) + 1),
-      options[all_answer.index(max(all_answer))])
+print("({})".format(all_answer.index(max(all_answer)) + 1), options[all_answer.index(max(all_answer))])
