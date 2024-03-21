@@ -21,3 +21,4 @@ for a in options:
 
 print(all_answer)
 print("({})".format(all_answer.index(max(all_answer)) + 1), options[all_answer.index(max(all_answer))])
+print()
